@@ -5,14 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Locutorio Jamal — Cartaya | Envío de dinero, recargas, móviles y accesorios</title>
 <meta name="description" content="Locutorio Jamal en Cartaya (Huelva). Envío de dinero, recargas y tarjetas SIM, móviles y accesorios, perfumes árabes, punto de recogida de paquetes. Av. de El Rompido, 2. Pedidos por WhatsApp.">
-<link rel="canonical" href="https://locutoriojamal.es/">
+<link rel="canonical" href="https://locutorio-jamal-cartaya-wanay.vercel.app/">
 <meta name="theme-color" content="#0a0f1c">
 <meta property="og:type" content="business.business">
 <meta property="og:title" content="Locutorio Jamal — Cartaya">
 <meta property="og:description" content="Tenemos de todo. Y si no lo tenemos, te lo buscamos. Av. de El Rompido, 2 — Cartaya (Huelva).">
-<meta property="og:image" content="https://locutoriojamal.es/tienda.jpg">
+<meta property="og:image" content="https://locutorio-jamal-cartaya-wanay.vercel.app/tienda.jpg">
 <meta property="og:locale" content="es_ES">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="icon-32.png">
+<link rel="icon" type="image/png" sizes="180x180" href="icon-180.png">
+<link rel="apple-touch-icon" href="icon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -101,10 +103,10 @@ header.nav.stuck{border-bottom-color:var(--line)}
 .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:68px;gap:18px}
 .brand{display:flex;align-items:center;gap:11px;text-decoration:none;font-weight:700;font-size:17.5px;letter-spacing:-.02em}
 .brand .mark{
-  width:32px;height:32px;border-radius:10px;flex:none;display:grid;place-items:center;
-  background:linear-gradient(140deg,var(--brand),#0f3bb0);box-shadow:0 4px 14px rgba(37,99,235,.35);
+  width:34px;height:34px;border-radius:10px;flex:none;overflow:hidden;
+  box-shadow:0 3px 12px rgba(10,15,28,.28);
 }
-.brand .mark svg{width:17px;height:17px;stroke:#fff;fill:none;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.brand .mark img{width:100%;height:100%;object-fit:cover;display:block}
 .nav menu{display:none;margin:0;padding:0;gap:6px;list-style:none}
 .nav menu a{
   text-decoration:none;color:var(--ink-2);font-size:15px;font-weight:500;
@@ -341,7 +343,7 @@ footer .legal{margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255
 <header class="nav" id="nav">
   <div class="wrap">
     <a class="brand" href="#top">
-      <span class="mark"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+      <span class="mark"><img src="logo.jpg" alt="" width="34" height="34"></span>
       Locutorio Jamal
     </a>
     <menu>
@@ -609,7 +611,7 @@ footer .legal{margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255
     <div class="cols">
       <div class="col">
         <a class="brand" href="#top">
-          <span class="mark"><svg viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2 4.2 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.1a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"/></svg></span>
+          <span class="mark"><img src="logo.jpg" alt="" width="34" height="34"></span>
           Locutorio Jamal
         </a>
         <div>Tenemos de todo. Y si no lo tenemos, te lo buscamos.</div>
@@ -653,7 +655,7 @@ footer .legal{margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255
   "@context":"https://schema.org",
   "@type":"LocalBusiness",
   "name":"Locutorio Jamal",
-  "image":"https://locutoriojamal.es/tienda.jpg",
+  "image":"https://locutorio-jamal-cartaya-wanay.vercel.app/tienda.jpg",
   "telephone":"+34959391460",
   "address":{"@type":"PostalAddress","streetAddress":"Av. de El Rompido, 2","postalCode":"21450","addressLocality":"Cartaya","addressRegion":"Huelva","addressCountry":"ES"},
   "geo":{"@type":"GeoCoordinates","latitude":37.284776,"longitude":-7.149029},
